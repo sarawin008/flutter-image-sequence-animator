@@ -310,7 +310,7 @@ class ImageSequenceAnimatorState extends State<ImageSequenceAnimator> with Singl
           if (previousFrame < frameCount)
             currentFrame = Image.asset(
               getDirectory(),
-              color: color,
+              //color: color,
               gaplessPlayback: true,
             );
         }
